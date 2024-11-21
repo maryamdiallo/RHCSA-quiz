@@ -1,0 +1,103 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Stack the title and container */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+}
+
+/* Styling for the Quiz Title */
+#quiz-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Space between the title and the container */
+    color: #333;
+}
+
+/* Centering and Enlarging the Quiz Container */
+#quiz-container {
+    width: 90%;
+    /* Adjust container width */
+    max-width: 700px;
+    /* Restrict the max width */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for Question Number and Text */
+#question-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Enlarging the Answer Input */
+#answer-input {
+    width: 90%;
+    /* Almost full width */
+    max-width: 600px;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev-btn {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+#next-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#prev-btn:hover {
+    background-color: #d98c3e;
+}
+
+#next-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the Results Section */
+.result {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
